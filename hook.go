@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/stackdriver/logging"
+	"github.com/ruffnecktsk/google-api-go-wrapper/config"
+	"github.com/ruffnecktsk/google-api-go-wrapper/stackdriver/logging"
 	"github.com/sirupsen/logrus"
 )
 
