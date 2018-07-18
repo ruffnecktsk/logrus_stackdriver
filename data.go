@@ -3,7 +3,7 @@ package logrus_stackdriver
 import (
 	"net/http"
 
-	"github.com/evalphobia/google-api-go-wrapper/stackdriver/logging"
+	"github.com/ruffnecktsk/google-api-go-wrapper/stackdriver/logging"
 	"github.com/sirupsen/logrus"
 )
 
