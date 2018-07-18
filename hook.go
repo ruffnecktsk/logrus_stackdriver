@@ -103,6 +103,7 @@ func (h *StackdriverHook) fire(entry *logrus.Entry) error {
 		Data:     h.getData(df),
 		Request:  df.getRequest(),
 		Response: df.getResponse(),
+		Timestamp: entry.Time,
 		Resource: &logging.Resource{
 			Type: "global",
 		},
